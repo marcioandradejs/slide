@@ -4,4 +4,7 @@ const slide = new SlideNav('.slide', '.slide-wrapper');
 slide.init();
 slide.addArrow('.prev', '.next');
 
+// slide.createControl();
+slide.addControl();
+
 console.log(slide)
